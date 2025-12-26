@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us | Livave</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="container page">
+  <h2>Contact Us</h2>
+
+  <form id="contactForm" class="contact-form">
+    <input id="name" placeholder="Name" required />
+    <input id="email" type="email" placeholder="Email" required />
+    <input id="phone" placeholder="Phone" />
+    <textarea id="message" placeholder="Message"></textarea>
+    <button class="btn-primary">Submit</button>
+  </form>
+</section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  await fetch("http://localhost:5000/contact", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name: name.value,
+      email: email.value,
+      phone: phone.value,
+      message: message.value
+    })
+  });
+  alert("Message sent successfully!");
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Services | Livave</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="container page">
+  <h2>Our Services</h2>
+
+  <h3>Software Testing</h3>
+  <ul>
+    <li>Manual Testing</li>
+    <li>Automation Testing</li>
+    <li>Performance & Security Testing</li>
+  </ul>
+
+  <h3>Web Development</h3>
+  <ul>
+    <li>Custom Web Applications</li>
+    <li>Responsive Design</li>
+    <li>Secure Solutions</li>
+  </ul>
+
+  <h3>IT Consulting</h3>
+  <ul>
+    <li>Technology Advisory</li>
+    <li>QA Strategy</li>
+  </ul>
+</section>
+
+</body>
+</html>

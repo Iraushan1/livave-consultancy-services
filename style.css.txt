@@ -1,0 +1,5 @@
+body { font-family: Arial; margin: 0; }
+.navbar { background: #0a4ea1; color: white; padding: 15px; }
+.hero { background: #f5f9ff; padding: 80px; text-align: center; }
+.card { padding: 20px; border: 1px solid #ddd; margin: 10px; }
+.btn-primary { background: #0a4ea1; color: white; padding: 10px 20px; }

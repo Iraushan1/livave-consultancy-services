@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us | Livave</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="container page">
+  <h2>About Livave Consultancy Services</h2>
+  <p>
+    We are an IT Consultancy specializing in software testing and web application development,
+    helping businesses deliver high-quality digital products.
+  </p>
+</section>
+
+</body>
+</html>

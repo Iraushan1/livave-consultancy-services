@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Livave Consultancy Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <h1 class="logo">Livave Consultancy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container" data-aos="fade-up">
+    <h2>Testing Excellence. Building Reliable Web Solutions.</h2>
+    <p>Software Testing, Web Development & IT Consulting Services</p>
+    <a href="contact.html" class="btn-primary">Get Free Consultation</a>
+  </div>
+</section>
+
+<section class="features container">
+  <div class="card" data-aos="fade-up">
+    <i class="fas fa-bug"></i>
+    <h3>Software Testing</h3>
+    <p>Manual, Automation, Performance & Security Testing</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <i class="fas fa-code"></i>
+    <h3>Web Development</h3>
+    <p>Custom, scalable & responsive web solutions</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <i class="fas fa-lightbulb"></i>
+    <h3>IT Consulting</h3>
+    <p>Technology advisory & QA strategy</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Livave Consultancy Services</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
+W
